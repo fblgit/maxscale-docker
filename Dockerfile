@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Andrea Sosso <andrea.sosso@dnshosting.it>
+MAINTAINER fblgit fblgit@github
 
 RUN rpm --import https://yum.mariadb.org/RPM-GPG-KEY-MariaDB \
     && yum -y install https://downloads.mariadb.com/enterprise/yzsw-dthq/generate/10.0/mariadb-enterprise-repository.rpm \
